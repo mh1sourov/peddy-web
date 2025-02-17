@@ -1,99 +1,139 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Peddy-Web</title>
-    <link rel="shortcut icon" href="./images/logo.webp" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="./images/logo.webp" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <header class="container mx-auto lg:px-24 px-8 my-3">
-             <nav>
-                <div class="navbar bg-base-100">
-                    <div class="navbar-start">
-                      <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M4 6h16M4 12h8m-8 6h16" />
-                          </svg>
-                        </div>
-                        <ul
-                          tabindex="0"
-                          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    
-                         
-                        </ul>
-                      </div>
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              ></ul>
+            </div>
 
-                      <div class="flex items-center">
-                     <div class="w-[20px]">
-                        <img src="./images/logo.webp">
-                    </div>
-                      <a class="btn btn-ghost text-xl font-bold px-1">Peddy</a>
-                      </div>
+            <div class="flex items-center">
+              <div class="w-[20px]">
+                <img src="./images/logo.webp" />
+              </div>
+              <a class="btn btn-ghost text-xl font-bold px-1">Peddy</a>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 font-semibold text-gray-500">
+              <li><a>Home</a></li>
+              <li>
+                <a>Shop</a>
+              </li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <img
+              class="rounded-full w-[40px] h-[40px] object-cover border-2 border-[#0E7A81] transition-transform duration-300 hover:scale-150 hover:border-3 hover:border-dashed hover:border-red"
+              src="./images/acw.jpg"
+              alt=""
+            />
+          </div>
+        </div>
 
-                    </div>
-                    <div class="navbar-center hidden lg:flex">
-                      <ul class="menu menu-horizontal px-1 font-semibold text-gray-500">
-                        <li><a>Home</a></li>
-                        <li>
-                          <a>Shop</a>
-                        </li>
-                        <li><a>Contact</a></li>
-                      </ul>
-                    </div>
-                    <div class="navbar-end">
-                      <img class="rounded-full w-[40px] h-[40px] object-cover border-2 border-[#0E7A81] transition-transform duration-300 hover:scale-150 hover:border-3 hover:border-dashed hover:border-red" src="./images/acw.jpg" alt="">
-                    </div>
-                  </div>
-
-                  <!-- banner -->
-                   <div>
-                    <p class="text-sm text-gray-400 text-center">Bringing Families Together ❤️‍🔥</p>
-                    <h1 class="text-xl lg:text-4xl  font-semibold lg:font-bold text-center my-4">Your Path to Adoption <br> Starts Here</h1>
-                    <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking <br> at its layout. The point of using Lorem Ipsum is that it has a.</p>
-                    <div class="text-center my-2"><button class="btn bg-[#0E7A81] text-white text-sm">View More</button></div>
-                    <div class="flex justify-center">
-                        <img src="./images/pet.webp" alt="">
-                    </div>
-                   </div>
-                   
-             </nav>
+        <!-- banner -->
+        <div>
+          <p class="text-sm text-gray-400 text-center">
+            Bringing Families Together ❤️‍🔥
+          </p>
+          <h1
+            class="text-xl lg:text-4xl font-semibold lg:font-bold text-center my-4"
+          >
+            Your Path to Adoption <br />
+            Starts Here
+          </h1>
+          <p class="text-center">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking <br />
+            at its layout. The point of using Lorem Ipsum is that it has a.
+          </p>
+          <div class="text-center my-2">
+            <button class="btn bg-[#0E7A81] text-white text-sm">
+              View More
+            </button>
+          </div>
+          <div class="flex justify-center">
+            <img src="./images/pet.webp" alt="" />
+          </div>
+        </div>
+      </nav>
     </header>
     <main class="container mx-auto lg:px-24 px-8 my-3">
-            <div>
-                <h1 class="text-3xl black text-center font-bold my-2">Adopt Your Best Friend</h1>
-                <p class="text-gray-500 text-center text-sm mb-2">It is a long established fact that a reader will be distracted by the readable content of a <br> page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
-            </div>
-              <!-- category Button -->
-            <div id="category_button_container" class="flex justify-between my-4 gap-2">
-                <!-- <button class="w-[200px] h-[60px] border-2 border-[#0E7A81] rounded-xl hover:bg-[#0E7A81] font-bold"><div class=" flex items-center justify-center gap-1"><img class="w-[20px]" src="./images/acw.jpg" alt=""> <p class="font-bold">Rabbit</p></div></button> -->
-            </div>
+      <div>
+        <h1 class="text-3xl black text-center font-bold my-2">
+          Adopt Your Best Friend
+        </h1>
+        <p class="text-gray-500 text-center text-sm mb-2">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a <br />
+          page when looking at its layout. The point of using Lorem Ipsum is
+          that it has a.
+        </p>
+      </div>
+      <!-- category Button -->
+      <div
+        id="category_button_container"
+        class="flex justify-between my-4 gap-2"
+      >
+        <!-- <button class="w-[200px] h-[60px] border-2 border-[#0E7A81] rounded-xl hover:bg-[#0E7A81] font-bold"><div class=" flex items-center justify-center gap-1"><img class="w-[20px]" src="./images/acw.jpg" alt=""> <p class="font-bold">Rabbit</p></div></button> -->
+      </div>
 
-           
-             <div class="flex justify-between mb-4">
-                <h1 class="text-xl font-bold">Best Deal For You</h1>
-                <button class="w-[120px] h-[40px] border-2 bg-[#0E7A81] rounded-xl text-white">Sort by price</button>
-             </div>
+      <div class="flex justify-between mb-4">
+        <h1 class="text-xl font-bold">Best Deal For You</h1>
+        <button id="sortButton"
+          class="w-[120px] h-[40px] border-2 bg-[#0E7A81] rounded-xl text-white"
+        >
+          Sort by price
+        </button>
+      </div>
 
-             <!-- card section container-->
-             <div class="w-full flex justify-between gap-2">
-             <!-- card side left-->
-              <div id="petCardContainer" class="min-w-[69%] grid grid-cols-1 lg:grid-cols-3 gap-5">
-               <!-- card start -->
-               <!-- <div class="cardContainer rounded-lg border-2 border-gray-200">
+      <!-- card section container-->
+      <div class="w-full flex justify-between gap-2">
+        <!-- card side left-->
+        <div
+          id="petCardContainer"
+          class="min-w-[69%] grid grid-cols-1 lg:grid-cols-3 gap-5"
+        >
+          <!-- card start -->
+          <!-- <div class="cardContainer rounded-lg border-2 border-gray-200">
                 <div class="card card-compact bg-base-100 shadow-xl">
                     <figure class="p-4">
                       <img class="rounded-md w-[260px] object-cover"
@@ -118,15 +158,15 @@
                     </div>
                   </div>
                </div> -->
-               <!-- card end -->
-             
-       
-              </div>
-              <!-- card sec side right -->
-                <div id="right_side_card" class="min-w-[29%] border-2 border-gray-200 rounded-lg grid grid-cols-2">
-                     
-                <!-- card start -->
-               <!-- <div class="cardContainer rounded-lg">
+          <!-- card end -->
+        </div>
+        <!-- card sec side right -->
+        <div
+          id="right_side_card"
+          class="min-w-[29%] border-2 border-gray-200 rounded-lg grid grid-cols-2"
+        >
+          <!-- card start -->
+          <!-- <div class="cardContainer rounded-lg">
                 <div class="card card-compact bg-base-100 shadow-sm">
                     <figure class="p-2">
                       <img class="rounded-md w-[200px] object-cover"
@@ -136,42 +176,59 @@
 
                   </div>
                </div> -->
-               <!-- card end -->
-                    
-                </div>
-             </div>
-    </main>
-      <!-- spiner div -->
-      <div id="spinner" class="hidden">
-        <div class="flex items-center justify-center ">
-            <span class="loading loading-bars loading-lg"></span>
-           </div>
+          <!-- card end -->
+        </div>
       </div>
+    </main>
+    <!-- spiner div -->
+    <div id="spinner" class="hidden">
+      <div class="flex items-center justify-center">
+        <span class="loading loading-bars loading-lg"></span>
+      </div>
+    </div>
     <footer>
-        <footer class="footer bg-neutral text-neutral-content p-10">
-            <nav>
-              <h6 class="footer-title">Services</h6>
-              <a class="link link-hover">Branding</a>
-              <a class="link link-hover">Design</a>
-              <a class="link link-hover">Marketing</a>
-              <a class="link link-hover">Advertisement</a>
-            </nav>
-            <nav>
-              <h6 class="footer-title">Company</h6>
-              <a class="link link-hover">About us</a>
-              <a class="link link-hover">Contact</a>
-              <a class="link link-hover">Jobs</a>
-              <a class="link link-hover">Press kit</a>
-            </nav>
-            <nav>
-              <h6 class="footer-title">Legal</h6>
-              <a class="link link-hover">Terms of use</a>
-              <a class="link link-hover">Privacy policy</a>
-              <a class="link link-hover">Cookie policy</a>
-            </nav>
-          </footer>
-        
+      <footer class="footer bg-neutral text-neutral-content p-10">
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer>
+
+      <!-- footer -->
+
+      <dialog id="my_modal_4" class="modal">
+        <div class="modal-box w-11/12 max-w-5xl max-h-full">
+            <div id="modal_content_container">
+                <!-- content -->
+              </div>
+          <div class="modal-action flex justify-center">
+            <form method="dialog">
+              <!-- if there is a button, it will close the modal -->
+              <button onclick="clearModal()" class="btn">Close</button>
+            </form>
+          </div>
+
+          
+        </div>
+      </dialog>
+      <!-- footer -->
     </footer>
     <script src="./JS/peddy.js"></script>
-</body>
+  </body>
 </html>
